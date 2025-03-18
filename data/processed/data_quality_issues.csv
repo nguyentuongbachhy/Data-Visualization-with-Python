@@ -1,0 +1,4 @@
+File,Issue,Count,Percentage,Impact
+time_series_covid_19_confirmed.csv,Unknown Province/State,1,0.00%,May affect provincial/state level analysis
+time_series_covid_19_deaths.csv,Unknown Province/State,1,0.00%,May affect provincial/state level analysis
+time_series_covid_19_recovered.csv,Unknown Province/State,1,0.00%,May affect provincial/state level analysis
