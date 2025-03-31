@@ -30,16 +30,35 @@
 
 ```
 Project_COVID19/
-├── Docs/                       # Báo cáo và tài liệu
-│   └── README.md               # File này
-├── Sources/                    # Jupyter notebooks
-│   ├── data_collection.ipynb   # Thu thập và khám phá dữ liệu
-│   ├── data_cleaning.ipynb     # Làm sạch dữ liệu
-│   └── data_visualization.ipynb # Trực quan hóa dữ liệu
-└── Datasets/                   # Dữ liệu
-    ├── Raw/                    # Dữ liệu gốc từ Kaggle
-    └── Processed/              # Dữ liệu đã xử lý
+├── Docs/                          # Báo cáo và tài liệu
+│   └── README.md                  # File này
+├── Sources/                       # Jupyter notebooks
+│   ├── data_collection.ipynb      # Thu thập và khám phá dữ liệu
+│   ├── data_preprocessing.ipynb   # Tiền xử lý và làm sạch dữ liệu
+│   ├── data_visualization.ipynb   # Trực quan hóa dữ liệu
+│   └── model.ipynb                # Huấn luyện mô hình học máy sử dụng prophet và LSTM
+└── Datasets/                      # Dữ liệu
+    ├── Raw/                       # Dữ liệu gốc từ Kaggle
+    └── Processed/                 # Dữ liệu đã xử lý
 ```
+## Cài đặt và chạy thử
+
+### Yêu cầu:
+- Python >= 3.10 đã được cài đặt
+- `pip` hoặc `conda` để cài thư viện
+
+### Các bước thực hiện:
+
+1. **Cài đặt các thư viện cần thiết:**
+
+```bash
+pip install -r requirements.txt
+1. data_collection.ipynb         # Thu thập và khám phá dữ liệu
+2. data_cleaning.ipynb           # Làm sạch và xử lý dữ liệu
+3. data_visualization.ipynb      # Phân tích và trực quan hóa
+4. model.ipynb                   # (Tùy chọn) phân tích nâng cao hoặc dự báo
+```
+
 
 ## Quy trình phát triển 10 ngày
 
