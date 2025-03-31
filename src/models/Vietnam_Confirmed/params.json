@@ -1,0 +1,1 @@
+{"ensemble_method": "weighted_average", "prophet_weight": 0.6, "lstm_weight": 0.4, "stacking": true, "look_back": 7, "data_info": {"country": "Vietnam", "target_col": "Confirmed"}}
