@@ -2,3 +2,6 @@ seaborn
 matplotlib
 pandas
 numpy
+plotly
+country_converter
+nbformat
